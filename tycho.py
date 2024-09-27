@@ -61,7 +61,7 @@ def repo_update_push():
 
 def commit_log_show():
     main_log = json_load(main_log_dir)
-    print(f"\x1b[38;5;249m repositary name:\x1b[0m {main_log['project_name']}\x1b[38;5;249m | Total commits:\x1b[0m {main_log['latest']}\x1b[38;5;249m | main file(s) :\x1b[0m {files_number()}\x1b[38;5;249m | backup-size:\x1b[0m {backup_size():.1f} KB")
+    print(f"\x1b[38;5;249m repository name:\x1b[0m {main_log['project_name']}\x1b[38;5;249m | Total commits:\x1b[0m {main_log['latest']}\x1b[38;5;249m | main file(s) :\x1b[0m {files_number()}\x1b[38;5;249m | backup-size:\x1b[0m {backup_size():.1f} KB")
     print("=" * win_size())
     print(f"  #  | {str('COMMENT'):<{comment_text_padding}} | TIME")
     print("=" * win_size())
