@@ -44,7 +44,7 @@ tycho push
 ## 📷 screenshots
 Here's a screen shot of tycho from a recent project (cmd: tycho log):
 <div align="center">
-<img width="990" alt="Screenshot 2024-09-27 at 4 49 11 PM" src="https://github.com/user-attachments/assets/24fa552c-511b-459c-9274-0e9ef8ff51dd"></div>
+<img width="990" alt="Screenshot 2024-09-27 at 4 49 11 PM" src="https://github.com/user-attachments/assets/9367da63-563a-47ee-a145-4c4b9c941331"></div>
 
 Here's how the insides of .tyc looks like:
 <div align="center">
