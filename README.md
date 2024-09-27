@@ -9,7 +9,7 @@
 </div>
 <br>
 
-Tycho is a simple versioned backup script. once initialized inside a project's dir, it keeps versions of the project inside a .tyc folder.
+Tycho is a simple code backup script. once initialized inside a project's dir, it keeps versions of the project inside a .tyc folder, kinda like a super minimal git.
 
 ## 🎠 Setup and Usage
 
@@ -35,9 +35,9 @@ tycho push
 | command | function                                                             |
 |---------|----------------------------------------------------------------------|
 | init    | creates .tyc folder and log.json (backup tracker) |
-| push    | asks for commit msg, then copies the current project files into .tyc/n (n is backup number)  |
+| push    | asks for commit msg, then copies the current project files into .tyc/n (n is the backup number)  |
 | log     | show current backup versions in the .tyco dir                               |
-| ignore  | add a file name to be ignored when backing up  (rules inside .tyc/log.json              |
+| ignore  | add a file name to be ignored when backing up the project (rules inside .tyc/log.json)              |
 | help    | show help                                                            |
 
 
